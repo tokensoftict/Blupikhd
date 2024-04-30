@@ -43,21 +43,23 @@
                 <option {{ old('facebook_ads_status',$settings->facebook_ads_status) == "TEST" ? 'selected' : '' }} value="TEST">TEST</option>
             </select>
         </div>
-
+        <h5>Android Settings</h5>
         <div class="form-group">
             <label>Facebook Android Banner Ads Placementid</label>
             <input  value="{{ old('facebook_bannerAd',$settings->facebook_bannerAd) }}" name="facebook_bannerAd" type="text" class="form-control">
-        </div>
-
-        <div class="form-group">
-            <label>Facebook Banner Ads IOS Placementid</label>
-            <input  value="{{ old('facebook_ios_bannerAd',$settings->facebook_ios_bannerAd) }}" name="facebook_ios_bannerAd" type="text" class="form-control">
         </div>
 
 
         <div class="form-group">
             <label>Facebook Interstitial Android Ads Placementid</label>
             <input  value="{{ old('facebook_Interstitial_placementid',$settings->facebook_Interstitial_placementid) }}" name="facebook_Interstitial_placementid" type="text" class="form-control">
+        </div>
+
+
+        <h5>IOS Settings</h5>
+        <div class="form-group">
+            <label>Facebook Banner Ads IOS Placementid</label>
+            <input  value="{{ old('facebook_ios_bannerAd',$settings->facebook_ios_bannerAd) }}" name="facebook_ios_bannerAd" type="text" class="form-control">
         </div>
 
         <div class="form-group">
