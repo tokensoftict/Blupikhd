@@ -44,11 +44,16 @@
             </select>
         </div>
 
-        <!--
         <div class="form-group">
-            <label>Facebook Testing Ads Key</label>
-            <input  value="{{ old('facebook_testingid_texting_ads_key',$settings->facebook_testingid_texting_ads_key) }}" name="facebook_testingid_texting_ads_key" type="text" class="form-control">
+            <label>Facebook Android Banner Ads Placementid</label>
+            <input  value="{{ old('facebook_bannerAd',$settings->facebook_bannerAd) }}" name="facebook_bannerAd" type="text" class="form-control">
         </div>
+
+        <div class="form-group">
+            <label>Facebook Banner Ads IOS Placementid</label>
+            <input  value="{{ old('facebook_ios_bannerAd',$settings->facebook_ios_bannerAd) }}" name="facebook_ios_bannerAd" type="text" class="form-control">
+        </div>
+
 
         <div class="form-group">
             <label>Facebook Interstitial Android Ads Placementid</label>
@@ -58,6 +63,13 @@
         <div class="form-group">
             <label>Facebook Interstitial IOS Placementid</label>
             <input  value="{{ old('facebook_ios_Interstitial_placementid',$settings->facebook_ios_Interstitial_placementid) }}" name="facebook_ios_Interstitial_placementid" type="text" class="form-control">
+        </div>
+
+
+        <!--
+        <div class="form-group">
+            <label>Facebook Testing Ads Key</label>
+            <input  value="{{ old('facebook_testingid_texting_ads_key',$settings->facebook_testingid_texting_ads_key) }}" name="facebook_testingid_texting_ads_key" type="text" class="form-control">
         </div>
 
         <div class="form-group">
@@ -70,16 +82,6 @@
             <input  value="{{ old('facebook_rewardedvideoad_ios_placementid',$settings->facebook_rewardedvideoad_ios_placementid) }}" name="facebook_rewardedvideoad_ios_placementid" type="text" class="form-control">
         </div>
 -->
-        <div class="form-group">
-            <label>Facebook Banner Ads Placementid</label>
-            <input  value="{{ old('facebook_bannerAd',$settings->facebook_bannerAd) }}" name="facebook_bannerAd" type="text" class="form-control">
-        </div>
-
-        <div class="form-group">
-            <label>Facebook Banner Ads IOS Placementid</label>
-            <input  value="{{ old('facebook_ios_bannerAd',$settings->facebook_ios_bannerAd) }}" name="facebook_ios_bannerAd" type="text" class="form-control">
-        </div>
-
 
         <hr/>
         <h4>Google Settings</h4>
